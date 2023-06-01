@@ -4,7 +4,7 @@ import AboutUs from "./scenes/AboutUs";
 import HomeScreen from "./scenes/HomeScreen";
 import Services from "./scenes/Services";
 import Footer from "./scenes/Footer";
-import ContactUs from "./scenes/ContactUs";
+//import ContactUs from "./scenes/ContactUs";
 import Testimonials from "./scenes/Testimonials";
 import ValuableClients from "./scenes/ValuableClients";
 import Gallery from "./scenes/Gallery";
@@ -24,7 +24,7 @@ function App() {
         <Gallery></Gallery>
         <ValuableClients></ValuableClients>
 
-        <ContactUs></ContactUs> 
+        <Contactus></Contactus> 
       {/* <Contactus></Contactus> */}
         <Footer></Footer>
       </div>
