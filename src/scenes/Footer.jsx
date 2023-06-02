@@ -39,8 +39,7 @@ const Footer = () => {
             },
           }}
         >
-          Copyright © 2022 Bracelet Productions | Developed By Bracelet
-          Productions
+          Copyright © 2023 Bracelet Productions | Developed By Indian Ventures
         </Typography>
       </FlexBetween>
       <FlexBetween sx={{ flexDirection: "column" }}>
