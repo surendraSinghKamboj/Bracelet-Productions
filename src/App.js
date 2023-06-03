@@ -13,7 +13,7 @@ import Contactus from "./scenes/Contactus";
 
 function App() {
   return (
-    <BrowserRouter>
+    
       <div className="app">
         <CssBaseline></CssBaseline>
         <Navbar></Navbar>
@@ -28,7 +28,7 @@ function App() {
       {/* <Contactus></Contactus> */}
         <Footer></Footer>
       </div>
-    </BrowserRouter>
+    
   );
 }
 
