@@ -8,7 +8,7 @@ import Footer from "./scenes/Footer";
 import Testimonials from "./scenes/Testimonials";
 import ValuableClients from "./scenes/ValuableClients";
 import Gallery from "./scenes/Gallery";
-import { BrowserRouter } from "react-router-dom";
+
 import Contactus from "./scenes/Contactus";
 
 function App() {
