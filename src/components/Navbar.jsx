@@ -18,6 +18,7 @@ import React, { useState } from "react";
 import { Menu as MenuIcon } from "@mui/icons-material";
 import logo from "../assets/logo.png";
 import FlexBetween from "./FlexBetween";
+import {Link as RouterLink} from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
@@ -109,7 +110,7 @@ const Navbar = () => {
                     </ListItemButton>
                   </ListItem>
                 </Link>
-                <Link to="#Gallery" smooth>
+                <RouterLink to="/Gallery" smooth>
                   <ListItem
                     onClick={() => {
                       setIsSidebarOpen(!isSidebarOpen);
@@ -131,7 +132,7 @@ const Navbar = () => {
                       </ListItemIcon>
                     </ListItemButton>
                   </ListItem>
-                </Link>
+                </RouterLink>
                 <Link to="#Project" smooth>
                   <ListItem
                     onClick={() => {
