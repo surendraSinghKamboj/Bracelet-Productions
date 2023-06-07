@@ -8,7 +8,7 @@ import Footer from "./scenes/Footer";
 import Testimonials from "./scenes/Testimonials";
 import ValuableClients from "./scenes/ValuableClients";
 import Gallery from "./scenes/Gallery";
-
+import {Router, Route, Routes } from "react-router-dom";
 import Contactus from "./scenes/Contactus";
 
 function App() {
@@ -21,12 +21,16 @@ function App() {
         <AboutUs></AboutUs>
         <Services></Services>
         <Testimonials></Testimonials>
-        <Gallery></Gallery>
+        
         <ValuableClients></ValuableClients>
 
         <Contactus></Contactus> 
       {/* <Contactus></Contactus> */}
         <Footer></Footer>
+    
+      
+
+      
       </div>
     
   );
