@@ -110,7 +110,7 @@ const Navbar = () => {
                     </ListItemButton>
                   </ListItem>
                 </Link>
-                <RouterLink to="/Gallery" smooth>
+                <Link to="#Gallery" smooth>
                   <ListItem
                     onClick={() => {
                       setIsSidebarOpen(!isSidebarOpen);
@@ -132,7 +132,7 @@ const Navbar = () => {
                       </ListItemIcon>
                     </ListItemButton>
                   </ListItem>
-                </RouterLink>
+                </Link>
                 <Link to="#Project" smooth>
                   <ListItem
                     onClick={() => {
@@ -194,11 +194,11 @@ const Navbar = () => {
                 Services
               </Typography>
             </Link>
-            <Link to="#Gallery" smooth>
+            <RouterLink to="/Gallery">
               <Typography fontSize="16px" sx={{ color: "white" }}>
                 Gallery
               </Typography>
-            </Link>
+            </RouterLink>
             <Link to="#contact" smooth>
               <Typography fontSize="16px" sx={{ color: "white" }}>
                 Contact
