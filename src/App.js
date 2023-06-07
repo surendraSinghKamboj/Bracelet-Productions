@@ -25,6 +25,7 @@ function App() {
         <Routes>
           <Route path="/Gallery" element={<Gallery></Gallery>} />
         </Routes>
+        <Gallery></Gallery>
         <ValuableClients></ValuableClients>
         <Contactus></Contactus>
         {/* <Contactus></Contactus> */}
