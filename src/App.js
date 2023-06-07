@@ -8,12 +8,13 @@ import Footer from "./scenes/Footer";
 import Testimonials from "./scenes/Testimonials";
 import ValuableClients from "./scenes/ValuableClients";
 import Gallery from "./scenes/Gallery";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Contactus from "./scenes/Contactus";
 
 function App() {
   return (
-    
+
+    <BrowserRouter>
       <div className="app">
         <CssBaseline></CssBaseline>
         <Navbar></Navbar>
@@ -21,14 +22,15 @@ function App() {
         <AboutUs></AboutUs>
         <Services></Services>
         <Testimonials></Testimonials>
-        <Gallery></Gallery>
+        <Routes>
+          <Route path="/Gallery" element={<Gallery></Gallery>} />
+        </Routes>
         <ValuableClients></ValuableClients>
-
-        <Contactus></Contactus> 
-      {/* <Contactus></Contactus> */}
+        <Contactus></Contactus>
+        {/* <Contactus></Contactus> */}
         <Footer></Footer>
       </div>
-    
+    </BrowserRouter>
   );
 }
 
