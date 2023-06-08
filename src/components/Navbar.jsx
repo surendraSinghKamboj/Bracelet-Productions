@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import {
   AppBar,
   Box,
@@ -15,11 +14,12 @@ import {
   ListItemIcon,
   ListItemText,
 } from "@mui/material";
+import React, { useState } from "react";
 import { Menu as MenuIcon } from "@mui/icons-material";
 import logo from "../assets/logo.png";
 import FlexBetween from "./FlexBetween";
-import {Link} from "react-router-dom";
-import Gallery from "../scenes/Gallery"; // Import your Gallery component here
+import {Link as RouterLink} from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -31,6 +31,7 @@ const Navbar = () => {
       sx={{
         position: "static",
         background: "black",
+        /*      background: "#D8E1FF", */
         boxShadow: "none",
         padding: { xs: "1rem", sm: "1.2rem", md: "1.5rem", lg: "2rem" },
       }}
@@ -54,7 +55,6 @@ const Navbar = () => {
         ></Box>
 
         {isMobile ? (
-          // Mobile menu
           <Box component="nav">
             <Drawer
               open={isSidebarOpen}
@@ -87,9 +87,35 @@ const Navbar = () => {
                     </ListItemButton>
                   </ListItem>
                 </Link>
-                {/* Add a route for the Gallery section */}
-              
-                  <Link to="#Gallery" smooth>
+                <Link to="#Services" smooth>
+                  <ListItem
+                    onClick={() => {
+                      setIsSidebarOpen(!isSidebarOpen);
+                    }}
+                  >
+                    <ListItemButton>
+                      <ListItemIcon>
+                        <ListItemText>
+                          <Typography
+                            width="150px"
+                            sx={{
+                              fontFamily: `"Poppins", "sans-serif"`,
+                              color: "white",
+                            }}
+                          >
+                            Services
+                          </Typography>
+                        </ListItemText>
+                      </ListItemIcon>
+                    </ListItemButton>
+                  </ListItem>
+                </Link>
+                <Link to="#Gallery" smooth>
+                  <ListItem
+                    onClick={() => {
+                      setIsSidebarOpen(!isSidebarOpen);
+                    }}
+                  >
                     <ListItemButton>
                       <ListItemIcon>
                         <ListItemText>
@@ -105,8 +131,8 @@ const Navbar = () => {
                         </ListItemText>
                       </ListItemIcon>
                     </ListItemButton>
-                  </Link>
-              
+                  </ListItem>
+                </Link>
                 <Link to="#Project" smooth>
                   <ListItem
                     onClick={() => {
@@ -148,7 +174,6 @@ const Navbar = () => {
             </IconButton>
           </Box>
         ) : (
-          // Desktop menu
           <FlexBetween
             gap="1.5rem"
             sx={{
@@ -169,12 +194,11 @@ const Navbar = () => {
                 Services
               </Typography>
             </Link>
-            {/* Add a link for the Gallery section */}
-            <Link to="/gallery">
+            <RouterLink to="/Gallery">
               <Typography fontSize="16px" sx={{ color: "white" }}>
                 Gallery
               </Typography>
-            </Link>
+            </RouterLink>
             <Link to="#contact" smooth>
               <Typography fontSize="16px" sx={{ color: "white" }}>
                 Contact
