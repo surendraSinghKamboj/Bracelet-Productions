@@ -25,7 +25,6 @@ const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
-
   return (
     <AppBar
       sx={{
@@ -33,7 +32,7 @@ const Navbar = () => {
         background: "black",
         /*      background: "#D8E1FF", */
         boxShadow: "none",
-        padding: { xs: "1rem", sm: "1.2rem", md: "1.5rem", lg: "2rem" },
+        padding: { xs: "1rem", sm: "1.2rem", md: "1.5rem", lg: "0.5rem" },
       }}
     >
       <Toolbar sx={{ justifyContent: "space-between" }}>
@@ -78,6 +77,10 @@ const Navbar = () => {
                             sx={{
                               fontFamily: `"Poppins", "sans-serif"`,
                               color: "white",
+                              textDecoration: "none", // Remove underline on hover
+                              "&:hover": {
+                                textDecoration: "none", // Remove underline on hover
+                              },
                             }}
                           >
                             About
@@ -204,16 +207,16 @@ const Navbar = () => {
                 Contact
               </Typography>
             </Link>
-            <Button
+           <Link to="/details"> <Button
               variant="contained"
               sx={{
                 backgroundColor: "#FFD60A",
                 color: "#003566",
                 fontWeight: "bold",
               }}
-            >
+            > 
               Get a Quote
-            </Button>
+            </Button></Link>
           </FlexBetween>
         )}
       </Toolbar>

@@ -51,6 +51,9 @@ const AboutUs = () => {
           <Typography
             sx={{
               fontFamily: `"Poppins", "sans-serif"`,
+              textAlign:"justify",
+             
+              wordSpacing:"-2px",
               fontSize: {
                 xs: "16px",
                 sm: "16px",
@@ -60,9 +63,9 @@ const AboutUs = () => {
             }}
           >
             As an established name in the field of Event, Art, and
-            Entertainment, Bracelet Productions has gained an impressive record
+            Entertainment Bracelet Productions has gained an impressive record
             of success thanks to its extensive industry experience and dynamic
-            team of young professionals. Our services range from Event
+            team of young professionals.Our services range from Event
             Management and Production, Photo and Videography, Video Productions,
             Fashion and Entertainment, to Integrated Marketing Communication.
             <br />
@@ -169,6 +172,7 @@ const AboutUs = () => {
                 md: "18px",
                 lg: "20px",
               },
+              textAlign:"justify",
             }}
           >
             We can offer full inventory services for your event needs, whether
@@ -190,6 +194,7 @@ const AboutUs = () => {
                 md: "1.4rem",
                 lg: "1.5rem",
               },
+              textAlign:"justify",
             }}
           >
             PROFESSIONAL SERVICES
@@ -203,12 +208,14 @@ const AboutUs = () => {
                 md: "18px",
                 lg: "20px",
               },
+              textAlign:"justify",
+             
             }}
           >
             In terms of work, we are very proud to have a very professional team
             who will understand your all requirements and provide a timely
             response and idea.
-            <br />
+          
             <br /> We all keep a constant touch with the client through out the
             event progress and process and after the event. so we can serve our
             clients better.
@@ -240,6 +247,7 @@ const AboutUs = () => {
                 md: "18px",
                 lg: "20px",
               },
+              textAlign:"justify",
             }}
           >
             With us, pricing is never an issue. We work within the client’s

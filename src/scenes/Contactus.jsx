@@ -96,7 +96,7 @@ const Contactus = () => {
               autocomplete="on"
               required
               sx={{
-                padding: "5px 5px",
+                padding: "0px 3px",
                 fontFamily: `"Poppins", "sans-serif"`,
                 fontSize: {
                   xs: "16px",
@@ -125,7 +125,7 @@ const Contactus = () => {
               placeholder="Your email"
               required=""
               sx={{
-                padding: "5px 5px",
+                padding: "0px 3px",
                 fontFamily: `"Poppins", "sans-serif"`,
                 fontSize: {
                   xs: "16px",

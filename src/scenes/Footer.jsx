@@ -38,7 +38,7 @@ const Footer = () => {
               xs: "16px",
               sm: "16px",
               md: "18px",
-              lg: "20px",
+              lg: "13px",
             },
           }}
         >
@@ -47,13 +47,13 @@ const Footer = () => {
       </FlexBetween>
       <FlexBetween sx={{ flexDirection: "column" }}>
         <FlexBetween>
-          <IconButton sx={{ color: "white" }}>
+          <IconButton sx={{ color: "white" }} href="https://www.facebook.com/BRACELETPRODUCTIONS?mibextid=ZbWKwL">
             <FacebookOutlined></FacebookOutlined>{" "}
           </IconButton>
-          <IconButton sx={{ color: "white" }}>
+          <IconButton sx={{ color: "white" }} href="https://www.instagram.com/braceletproductions/?igshid=MzNlNGNkZWQ4Mg%3D%3D">
             <InstagramIcon></InstagramIcon>{" "}
           </IconButton>
-          <IconButton sx={{ color: "white" }}>
+          <IconButton sx={{ color: "white" }} href="https://www.linkedin.com/company/bracelet-productions/" >
             <LinkedInIcon></LinkedInIcon>{" "}
           </IconButton>
         </FlexBetween>
@@ -67,7 +67,7 @@ const Footer = () => {
             },
           }}
         >
-          Terms and Conditions
+          
         </FlexBetween>
       </FlexBetween>
     </FlexBetween>

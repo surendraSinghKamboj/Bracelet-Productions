@@ -22,7 +22,7 @@ const Testimonials = () => {
           md: "1.5rem 1.5rem 8rem",
           lg: "3rem 3rem 8rem 8rem",
         },
-        background: "black",
+        
       }}
     >
       <Box>
@@ -60,7 +60,7 @@ const Testimonials = () => {
             stretch: 0,
             depth: 50,
             modifier: 1,
-            slideShadows: true,
+            
           }}
           /*         modules={[EffectCoverflow, Pagination]} */
           className="mySwiper"

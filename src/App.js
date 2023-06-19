@@ -4,7 +4,7 @@ import Footer from "./scenes/Footer";
 import HomeWrapper from "./components/HomeWrapper";
 import Gallerys from "./components/Gallerys";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import Form from "./scenes/Form";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomeWrapper />} />
           <Route path="/Gallery" element={<Gallerys/>} />
+          <Route path="/details" element={<Form />} />
         </Routes>
         <Footer></Footer>
       </div>

@@ -9,7 +9,7 @@ const Service = styled(FlexBetween)({
   width: "25vw",
   height: "180px",
   gap: "2rem",
-  margin: "0 auto",
+  margin: "-10px auto",
 });
 
 const ServiceTitle = styled(Typography)({
@@ -87,18 +87,7 @@ const Services = () => {
             minHeight: { xs: "125px", sm: "160px", md: "180px" },
           }}
         >
-          <ServiceTitle
-            sx={{
-              fontSize: {
-                xs: "1.15rem",
-                sm: "1.3rem",
-                md: "1.4rem",
-                lg: "1.5rem",
-              },
-            }}
-          >
-            EVENT MANAGEMENT
-          </ServiceTitle>
+          
           <ServiceText
             sx={{
               fontSize: {
@@ -107,12 +96,25 @@ const Services = () => {
                 md: "18px",
                 lg: "20px",
               },
+            
             }}
           >
+            <ServiceTitle
+            sx={{
+              fontSize: {
+                xs: "1.15rem",
+                sm: "1.3rem",
+                md: "1.4rem",
+                lg: "1.5rem",
+              },
+            marginBottom:"5px",
+            }}
+          >
+            EVENT MANAGEMENT
+          </ServiceTitle>
             We are proficient in the three most integral part of Event
             Management
-            <br />
-            <br />
+           <br/>
             Conceptulise – Design – Execute
           </ServiceText>
         </Service>
@@ -127,18 +129,7 @@ const Services = () => {
             minHeight: { xs: "125px", sm: "160px", md: "180px" },
           }}
         >
-          <ServiceTitle
-            sx={{
-              fontSize: {
-                xs: "1.15rem",
-                sm: "1.3rem",
-                md: "1.4rem",
-                lg: "1.5rem",
-              },
-            }}
-          >
-            WEDDING PLANNING
-          </ServiceTitle>
+          
           <ServiceText
             sx={{
               fontSize: {
@@ -148,7 +139,20 @@ const Services = () => {
                 lg: "20px",
               },
             }}
-          >
+          ><ServiceTitle
+          sx={{
+            fontSize: {
+              xs: "1.15rem",
+              sm: "1.3rem",
+              md: "1.4rem",
+              lg: "1.5rem",
+            },
+            marginBottom:"5px",
+          }}
+        >
+          WEDDING PLANNING
+        </ServiceTitle>
+
             Our professional wedding planner understands your desire. so they
             design and execute your wedding into a lifetime memory.
           </ServiceText>
@@ -164,18 +168,7 @@ const Services = () => {
             minHeight: { xs: "125px", sm: "160px", md: "180px" },
           }}
         >
-          <ServiceTitle
-            sx={{
-              fontSize: {
-                xs: "1.15rem",
-                sm: "1.3rem",
-                md: "1.4rem",
-                lg: "1.5rem",
-              },
-            }}
-          >
-            FASHION SHOW
-          </ServiceTitle>
+        
           <ServiceText
             sx={{
               fontSize: {
@@ -186,6 +179,19 @@ const Services = () => {
               },
             }}
           >
+              <ServiceTitle
+            sx={{
+              fontSize: {
+                xs: "1.15rem",
+                sm: "1.3rem",
+                md: "1.4rem",
+                lg: "1.5rem",
+              },
+              marginBottom:"5px",
+            }}
+          >
+            FASHION SHOW
+          </ServiceTitle>
             We manage your fashion show with very professional manner, weather
             it’s a Ramp, Backdrop, Light or Sound. It all will be flawless.
           </ServiceText>
@@ -201,18 +207,7 @@ const Services = () => {
             minHeight: { xs: "125px", sm: "160px", md: "180px" },
           }}
         >
-          <ServiceTitle
-            sx={{
-              fontSize: {
-                xs: "1.15rem",
-                sm: "1.3rem",
-                md: "1.4rem",
-                lg: "1.5rem",
-              },
-            }}
-          >
-            PHOTO AND VIDEOGRAPHY
-          </ServiceTitle>
+         
           <ServiceText
             sx={{
               fontSize: {
@@ -223,6 +218,19 @@ const Services = () => {
               },
             }}
           >
+             <ServiceTitle
+            sx={{
+              fontSize: {
+                xs: "1.15rem",
+                sm: "1.3rem",
+                md: "1.4rem",
+                lg: "1.5rem",
+              },
+              marginBottom:"5px",
+            }}
+          >
+            PHOTO AND VIDEOGRAPHY
+          </ServiceTitle>
             Whether it is a wedding, corporate event, Fashion Show, Birthday or
             any other event, we have a dedicated team of professionals ready to
             capture the best moments for you.
@@ -239,7 +247,19 @@ const Services = () => {
             minHeight: { xs: "125px", sm: "160px", md: "180px" },
           }}
         >
-          <ServiceTitle
+         
+          <ServiceText
+            sx={{
+              fontSize: {
+                xs: "16px",
+                sm: "16px",
+                md: "18px",
+                lg: "20px",
+              },
+              marginBottom:"5px",
+            }}
+          >
+             <ServiceTitle
             sx={{
               fontSize: {
                 xs: "1.15rem",
@@ -251,16 +271,6 @@ const Services = () => {
           >
             CORPORATE GIFTING
           </ServiceTitle>
-          <ServiceText
-            sx={{
-              fontSize: {
-                xs: "16px",
-                sm: "16px",
-                md: "18px",
-                lg: "20px",
-              },
-            }}
-          >
             We provide corporate gifting services to our clients. The
             Innovative, Latest, Trendy and Useful Gifts with Corporate Branding.
           </ServiceText>
@@ -276,31 +286,8 @@ const Services = () => {
             minHeight: { xs: "125px", sm: "160px", md: "180px" },
           }}
         >
-          <ServiceTitle
-            sx={{
-              fontSize: {
-                xs: "1.15rem",
-                sm: "1.3rem",
-                md: "1.4rem",
-                lg: "1.5rem",
-              },
-            }}
-          >
-            CREATIVE AND WEB DESIGNING
-          </ServiceTitle>
-          <ServiceText
-            sx={{
-              fontSize: {
-                xs: "16px",
-                sm: "16px",
-                md: "18px",
-                lg: "20px",
-              },
-            }}
-          >
-            We provide creative and website designing services. Easy to access
-            and with all the latest feature.
-          </ServiceText>
+          
+          
         </Service>
       </FlexBetween>
     </Box>

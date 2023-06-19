@@ -23,7 +23,7 @@ import '../App.css';
 function Wedding() {
   return (
     <div>
-        <h1 style={{textAlign:"center",color:"yello"}}>Wedding Events</h1>
+        <h1 style={{textAlign:"center",color:"yello"}}>Wedding</h1>
       <div className='main' style={{ display: "flex", flexWarp: "wrap" }}>
         
           <WeddingChild img={Gallery_1} />

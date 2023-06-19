@@ -9,8 +9,8 @@ const [state, setState] = useState(true);
   return (
     <div className='root'>
            <div className="button-container">
-          <button className="carpet-events-button btn" onClick={()=>{setState(false)}}>Carpet Events</button>
-         <button className="weddings-button btn" onClick={()=>{setState(true)}}>Wedding Events</button>
+          <button className="carpet-events-button btn" onClick={()=>{setState(false)}}>Corporate Events</button>
+         <button className="weddings-button btn" onClick={()=>{setState(true)}}>Wedding </button>
         </div>
 
           {
