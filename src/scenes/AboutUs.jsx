@@ -36,8 +36,8 @@ const AboutUs = () => {
           <Typography
             sx={{
               color: "#FFC300",
-              fontFamily: `"Poppins", "sans-serif"`,
-              fontFamily: `"Righteous", "cursive"`,
+              // fontFamily: `"Poppins", "sans-serif"`,
+              // fontFamily: `"Righteous", "cursive"`,
               fontSize: {
                 xs: "28px",
                 sm: "32px",
@@ -58,7 +58,7 @@ const AboutUs = () => {
                 xs: "16px",
                 sm: "16px",
                 md: "18px",
-                lg: "20px",
+                lg: "17px",
               },
             }}
           >
@@ -141,8 +141,8 @@ const AboutUs = () => {
                 lg: "42px",
               },
               color: "#FFC300",
-              fontFamily: `"Poppins", "sans-serif"`,
-              fontFamily: `"Righteous", "cursive"`,
+              // fontFamily: `"Poppins", "sans-serif"`,
+              // fontFamily: `"Righteous", "cursive"`,
             }}
           >
             WHY CHOOSE US?
@@ -151,8 +151,8 @@ const AboutUs = () => {
             variant="h5"
             sx={{
               color: "#6CCFF6",
-              fontFamily: `"Poppins", "sans-serif"`,
-              fontFamily: `"Righteous", "cursive"`,
+              // fontFamily: `"Poppins", "sans-serif"`,
+              // fontFamily: `"Righteous", "cursive"`,
               fontSize: {
                 xs: "1.15rem",
                 sm: "1.3rem",
@@ -165,7 +165,7 @@ const AboutUs = () => {
           </Typography>
           <Typography
             sx={{
-              fontFamily: `"Poppins", "sans-serif"`,
+              // fontFamily: `"Poppins", "sans-serif"`,
               fontSize: {
                 xs: "16px",
                 sm: "16px",
@@ -186,8 +186,8 @@ const AboutUs = () => {
             variant="h5"
             sx={{
               color: "#6CCFF6",
-              fontFamily: `"Poppins", "sans-serif"`,
-              fontFamily: `"Righteous", "cursive"`,
+              // fontFamily: `"Poppins", "sans-serif"`,
+              // fontFamily: `"Righteous", "cursive"`,
               fontSize: {
                 xs: "1.15rem",
                 sm: "1.3rem",
@@ -201,7 +201,7 @@ const AboutUs = () => {
           </Typography>
           <Typography
             sx={{
-              fontFamily: `"Poppins", "sans-serif"`,
+             // fontFamily: `"Poppins", "sans-serif"`,
               fontSize: {
                 xs: "16px",
                 sm: "16px",
@@ -226,8 +226,8 @@ const AboutUs = () => {
             variant="h5"
             sx={{
               color: "#6CCFF6",
-              fontFamily: `"Poppins", "sans-serif"`,
-              fontFamily: `"Righteous", "cursive"`,
+              // fontFamily: `"Poppins", "sans-serif"`,
+              // fontFamily: `"Righteous", "cursive"`,
               fontSize: {
                 xs: "1.15rem",
                 sm: "1.3rem",
@@ -240,7 +240,7 @@ const AboutUs = () => {
           </Typography>
           <Typography
             sx={{
-              fontFamily: `"Poppins", "sans-serif"`,
+             // fontFamily: `"Poppins", "sans-serif"`,
               fontSize: {
                 xs: "16px",
                 sm: "16px",

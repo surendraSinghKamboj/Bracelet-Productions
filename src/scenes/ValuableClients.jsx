@@ -32,8 +32,8 @@ const ValuableClients = () => {
         <Typography
           sx={{
             color: "black",
-            fontFamily: `"Poppins", "sans-serif"`,
-            fontFamily: `"Righteous", "cursive"`,
+            // fontFamily: `"Poppins", "sans-serif"`,
+            // fontFamily: `"Righteous", "cursive"`,
             textAlign: "center",
             margin: "4rem 4rem",
             fontSize: {

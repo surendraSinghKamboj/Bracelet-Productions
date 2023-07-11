@@ -29,8 +29,8 @@ const Testimonials = () => {
         <Typography
           sx={{
             color: "#FFC300",
-            fontFamily: `"Poppins", "sans-serif"`,
-            fontFamily: `"Righteous", "cursive"`,
+            // fontFamily: `"Poppins", "sans-serif"`,
+            // fontFamily: `"Righteous", "cursive"`,
             textAlign: "center",
             fontSize: {
               xs: "28px",

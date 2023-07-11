@@ -14,12 +14,12 @@ const Service = styled(FlexBetween)({
 
 const ServiceTitle = styled(Typography)({
   color: "#6CCFF6",
-  fontFamily: `"Poppins", "sans-serif"`,
-  fontFamily: `"Righteous", "cursive"`,
+  // fontFamily: `"Poppins", "sans-serif"`,
+  // fontFamily: `"Righteous", "cursive"`,
 });
 
 const ServiceText = styled(Typography)({
-  fontFamily: `"Poppins", "sans-serif"`,
+  // fontFamily: `"Poppins", "sans-serif"`,
   fontSize: "20px",
   textAlign: "center",
 });
@@ -49,8 +49,8 @@ const Services = () => {
       <Typography
         sx={{
           color: "#FFC300",
-          fontFamily: `"Poppins", "sans-serif"`,
-          fontFamily: `"Righteous", "cursive"`,
+          // fontFamily: `"Poppins", "sans-serif"`,
+          // fontFamily: `"Righteous", "cursive"`,
           fontSize: {
             xs: "28px",
             sm: "32px",

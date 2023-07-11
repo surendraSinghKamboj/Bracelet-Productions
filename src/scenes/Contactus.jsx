@@ -65,8 +65,8 @@ const Contactus = () => {
             <Typography
               sx={{
                 color: "black",
-                fontFamily: `"Poppins", "sans-serif"`,
-                fontFamily: `"Righteous", "cursive"`,
+                // fontFamily: `"Poppins", "sans-serif"`,
+                // fontFamily: `"Righteous", "cursive"`,
                 fontSize: {
                   xs: "28px",
                   sm: "32px",
@@ -202,8 +202,8 @@ const Contactus = () => {
           variant="h3"
           sx={{
             color: "#FFC300",
-            fontFamily: `"Poppins", "sans-serif"`,
-            fontFamily: `"Righteous", "cursive"`,
+            // fontFamily: `"Poppins", "sans-serif"`,
+            // fontFamily: `"Righteous", "cursive"`,
             fontSize: {
               xs: "22px",
               sm: "32px",
@@ -217,8 +217,8 @@ const Contactus = () => {
         <Typography
           sx={{
             color: "#6CCFF6",
-            fontFamily: `"Poppins", "sans-serif"`,
-            fontFamily: `"Righteous", "cursive"`,
+            // fontFamily: `"Poppins", "sans-serif"`,
+            // fontFamily: `"Righteous", "cursive"`,
             fontSize: {
               xs: "1.15rem",
               sm: "1.3rem",
@@ -244,8 +244,8 @@ const Contactus = () => {
           variant="h3"
           sx={{
             color: "#FFC300",
-            fontFamily: `"Poppins", "sans-serif"`,
-            fontFamily: `"Righteous", "cursive"`,
+            // fontFamily: `"Poppins", "sans-serif"`,
+            // fontFamily: `"Righteous", "cursive"`,
             fontSize: {
               xs: "22px",
               sm: "32px",

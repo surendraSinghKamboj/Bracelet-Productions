@@ -58,8 +58,8 @@ const Gallery = () => {
       <Typography
         sx={{
           color: "#FFC300",
-          fontFamily: `"Poppins", "sans-serif"`,
-          fontFamily: `"Righteous", "cursive"`,
+          // fontFamily: `"Poppins", "sans-serif"`,
+          // fontFamily: `"Righteous", "cursive"`,
           textAlign: "center",
           paddingBottom: "3rem",
           fontSize: {

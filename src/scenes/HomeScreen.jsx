@@ -41,8 +41,8 @@ const HomeScreen = () => {
               md: "4.5rem",
               lg: "6.5rem",
             },
-            fontFamily: `"Poppins", "sans-serif"`,
-            fontFamily: `"Righteous", "cursive"`,
+            // fontFamily: `"Poppins", "sans-serif"`,
+            // fontFamily: `"Righteous", "cursive"`,
             textShadow: "4px 4px black",
           }}
         >
