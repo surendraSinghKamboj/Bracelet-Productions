@@ -42,16 +42,16 @@ const Form = () => {
             <Grid item xs={12}>
               <TextField
                 required
-                label="Mobile"
+                label="Email"
                 fullWidth
                 variant="outlined"
-                type="tel"
+                type="email"
               />
             </Grid>
             <Grid item xs={12}>
               <TextField
                 required
-                label="Phone Number"
+                label="Mobile Number"
                 fullWidth
                 variant="outlined"
                 type="tel"

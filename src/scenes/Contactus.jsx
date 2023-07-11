@@ -80,10 +80,10 @@ const Contactus = () => {
           </Box>
           <Box
             sx={{
-              height: "10%",
+              height: "13%",
               width: "90%",
               background: "white",
-              borderRadius: "10px",
+              borderRadius: "5px",
               border: "1px solid black",
             }}
             className="inputField"
@@ -110,10 +110,10 @@ const Contactus = () => {
 
           <Box
             sx={{
-              height: "10%",
+              height: "13%",
               width: "90%",
               background: "white",
-              borderRadius: "10px",
+              borderRadius: "5px",
               border: "1px solid black",
             }}
             className="inputField"
